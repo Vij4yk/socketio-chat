@@ -44,7 +44,7 @@ var SocketIOChat = function(socket, options){
 	this.room_emiters = {
 		onUserDisconnect:room_emiters.userDisconnect || 'userDisconnect',
 		onUserConnect:room_emiters.userConnect || 'userConnect',
-		onJoinRoom:room_emiters.userJoinendRoom || 'userJoinendRoom',
+		onJoinRoom:room_emiters.userJoinedRoom || 'userJoinedRoom',
 		onUserSentMessage:room_emiters.userSentMessage || 'userSentMessage',
 		onUserStartTyping:room_emiters.userStartedTyping || 'userStartedTyping',
 		onUserStopTyping:room_emiters.userStoppedTyping || 'userStoppedTyping',
